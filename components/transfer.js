@@ -1,19 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Cart from './components/cart';
-import Dangnhap from './components/dangnhap';
-import Home from './components/Home';
-import Mainscreen from './components/mainscrren';
-import Router_ from './router';
+import Router_account from '../router_account';
 
 
-export default function App() {
+
+export default function Tra() {
   return (
     
     //<View style={styles.container}>
        
-        <Router_ />
+        <Router_account/>
         
     // </View>
   );

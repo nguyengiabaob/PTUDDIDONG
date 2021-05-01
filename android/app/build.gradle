@@ -76,7 +76,7 @@ import com.android.build.OutputFile
  *   extraPackagerArgs: []
  * ]
  */
-
+apply plugin: 'com.google.gms.google-services'
 project.ext.react = [
     enableHermes: false
 ]
